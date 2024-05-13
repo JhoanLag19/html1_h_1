@@ -1,0 +1,37 @@
+:root{
+    --bg-blue:#93B5C9;
+    --bg-wine:#AB2849;
+}
+
+* {
+    margin: 0;
+}
+
+div {
+    background-color: var(--bg-wine);
+}
+
+.contenedor {
+    height: 665px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.hijo {
+    background-color: var(--bg-blue);
+    height: 240px;
+    width: 100%;
+    position: absolute;
+}
+
+.caja-peq {
+    width: 75%;
+    height: 200px;
+    margin: 30px 0 30px 25%;
+}
+
+.caja-centro {
+    width: 95%;
+    height: 150px;
+    margin: 0 auto 8px auto;
+}
